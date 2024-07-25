@@ -5,7 +5,7 @@ const { connectDB } = require("./db");
 const URL= require ('./models/url')
 const app = express();
 const PORT = 4000;
-connectDB("mongodb+srv://raoankit0022:Z2XP9lF8ECS4AnXk@cluster0.ypohhif.mongodb.net/shortURL")
+connectDB("//mongodb url ")
 .then(
     ()=>console.log('connected to mongodb successfully')
 )
